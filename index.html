@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <!-- daisyUI from CDN Start-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI from CDN End-->
+
+    <!-- google font CDN Start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- google font CDN end-->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        lexend: ["Lexend"],
+                    },
+                },
+            },
+        }
+
+    </script>
+
+</head>
+
+<body class="font-lexend bg-[#F9F7F3]">
+    <header>
+        <div class="py-7">
+            <div class=" flex items-center justify-between">
+                <div>
+                    <button class="btn bg-[#B4F461] w-[110px] text-xl font-semibold">Blog</button>
+                    <button class="btn bg-[#B4F461] w-[110px] text-xl font-semibold">Home</button>
+                </div>
+                <div class="text-xl font-semibold flex items-center gap-2"><img src="./assets/logo.png"
+                        alt="">
+                    <h1>Donate Bangladesh</h1>
+                </div>
+                <div class="text-xl font-semibold text-[#111111B3] flex items-center gap-2"> <img
+                        src="./assets/coin.png" alt="">
+                    <h1>5500 BDT</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-white py-11">
+        <section class="container mx-auto">
+            <div class=" flex justify-center gap-5">
+                <button class="btn bg-[#B4F461]">Donation</button>
+                <button class="btn btn-outline">History</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
