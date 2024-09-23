@@ -45,33 +45,15 @@
                 </div>
                 <div class="text-xl font-semibold text-[#111111B3] flex items-center gap-2"> <img
                         src="./assets/coin.png" alt="">
-                    <h1 ><span id="My-total-tk">5500</span> BDT</h1>
-                </div>  
+                    <h1><span id="my-total-tk">5500</span> BDT</h1>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Content to scroll -->
 
-    <!-- modal start  -->
-    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-        <div class="flex flex-col items-center text-center">
-            <div class="modal-box w-[500px] space-y-4">
-                <h3 class="text-lg font-bold">Congrates!</h3>
-                <div class="flex justify-center">
-                    <img  src="./assets/coin.png" alt="">
-                </div>
-                <p class="py-4 text-gray-400">You Have danated for Humankind</p>
-                <h3 class="text-3xl font-bold">Successfully</h3>
-                <div >
-                    <form method="dialog">
-                        <button class="btn">Close confirmation</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </dialog>
-    <!-- modal end -->
+
 
     <!-- main section satart -->
     <main class="bg-white py-20">
@@ -104,51 +86,69 @@
                                 class=" border-2 border-[#1111111A] w-full p-2 text-gray-400 rounded-lg"
                                 placeholder="Write Donation Amount">
                         </div>
-                        <button onclick="my_modal_5.showModal()" id="donetBtn1"
+                        <button  id="donetBtn1"
                             class="btn max-w-full bg-[#B4F461] border-none text-xl font-semibold">Donate Now</button>
                     </div>
                 </div>
+                <!-- modal start  -->
+                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="modal-box w-[500px] space-y-4">
+                            <h3 class="text-lg font-bold">Congrates!</h3>
+                            <div class="flex justify-center">
+                                <img src="./assets/coin.png" alt="">
+                            </div>
+                            <p class="py-4 text-gray-400">You Have danated for Humankind</p>
+                            <h3 class="text-3xl font-bold">Successfully</h3>
+                            <div>
+                                <form method="dialog">
+                                    <button class="btn">Close confirmation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </dialog>
+                <!-- modal end -->
 
                 <!-- donate -2 -->
-                <div class="grid lg:grid-cols-2 gap-5 items-center border-2 border-[#E7E7E7] rounded-2xl p-5 m-3">
+                <!-- <div class="grid lg:grid-cols-2 gap-5 items-center border-2 border-[#E7E7E7] rounded-2xl p-5 m-3">
                     <div class="">
                         <img class="w-full" src="./assets/feni.png" alt="">
                     </div>
                     <div class="flex flex-col space-y-5 lg:space-y-10  p-4">
                         <div class="flex items-center gap-3 text-[#111111B3] text-base font-normal">
                             <img src="./assets/coin.png" alt="">
-                            <h1>600 BDT</h1>
+                            <h1><span id="donate-tk">600</span> BDT</h1>
                         </div>
                         <h1 class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
                         <p class="text-[#111111B3] text-base font-normal leading-9"> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
                         <div>
-                            <input type="text" class=" border-2 border-[#1111111A] w-full p-2 text-gray-400 rounded-lg"
+                            <input id="donetInput" type="text" class=" border-2 border-[#1111111A] w-full p-2 text-gray-400 rounded-lg"
                                 placeholder="Write Donation Amount">
                         </div>
-                        <button onclick="my_modal_5.showModal()" id="donetBtn2" class="btn max-w-full bg-[#B4F461] border-none text-xl font-semibold">
+                        <button id="donetBtn1" class="btn max-w-full bg-[#B4F461] border-none text-xl font-semibold">
                             Donate Now</button>
                     </div>
-                </div>
+                </div> -->
                 <!-- donate -3 -->
-                <div class="grid lg:grid-cols-2 gap-5 items-center border-2 border-[#E7E7E7] rounded-2xl p-5 m-3">
+                    <!-- <div class="grid lg:grid-cols-2 gap-5 items-center border-2 border-[#E7E7E7] rounded-2xl p-5 m-3">
                     <div class="">
                         <img class="w-full" src="./assets/quota-protest.png" alt="">
                     </div>
                     <div class="flex flex-col space-y-5 lg:space-y-10  p-4">
                         <div class="flex items-center gap-3 text-[#111111B3] text-base font-normal">
                             <img src="./assets/coin.png" alt="">
-                            <h1>2400 BDT</h1>
+                            <h1><span id="donate-tk">2400</span> BDT</h1>
                         </div>
                         <h1 class="text-xl font-bold">Aid for Injured in the Quota Movement</h1>
                         <p class="text-[#111111B3] text-base font-normal leading-9">The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need. </p>
                         <div>
-                            <input type="text" class=" border-2 border-[#1111111A] w-full p-2 text-gray-400 rounded-lg"
+                            <input id="donetInput" type="text" class=" border-2 border-[#1111111A] w-full p-2 text-gray-400 rounded-lg"
                                 placeholder="Write Donation Amount">
                         </div>
-                        <button onclick="my_modal_5.showModal()" id="donetBtn3"
-                            class="btn max-w-full bg-[#B4F461] border-none text-xl font-semibold">Donate Now</button>
+                        <button id="donetBtn1" class="btn max-w-full bg-[#B4F461] border-none text-xl font-semibold">Donate Now</button>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </section>
