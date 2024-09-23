@@ -30,24 +30,31 @@
     </script>
 </head>
 
-<body class="bg-[#F9F7F3] font-lexend">
+<body class=" font-lexend ">
 
     <!-- Sticky Navbar -->
-    <nav class="sticky top-0 z-10 shadow-md backdrop-blur ">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-7">
-            <div class="flex flex-wrap justify-between items-center py-7 gap-6">
-                <div class="flex items-center">
-                    <button class="btn bg-[#B4F461] w-[110px] text-xl font-semibold"><a
-                            href="./Home.html">Blog</a></button>
+    <nav class="sticky top-0">
+        <div class="bg-[#F9F7F3] backdrop-blur">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 ">
+                <div class="flex flex-wrap justify-between items-center py-7 gap-6">
+                    <div class="flex items-center">
+                        <button class="btn bg-[#B4F461] w-[110px] text-xl font-semibold"><a
+                                href="./Home.html">Blog</a></button>
+                    </div>
+                    <div class="text-xl font-semibold flex items-center gap-2"><img src="./assets/logo.png" alt="">
+                        <h1>Donate Bangladesh</h1>
+                    </div>
+                    <div class="text-xl font-semibold text-[#111111B3] flex items-center gap-2"> <img
+                            src="./assets/coin.png" alt="">
+                        <h1><span id="my-total-tk">5500</span> BDT</h1>
+                    </div>
                 </div>
-                <div class="text-xl font-semibold flex items-center gap-2"><img src="./assets/logo.png" alt="">
-                    <h1>Donate Bangladesh</h1>
-                </div>
-                <div class="text-xl font-semibold text-[#111111B3] flex items-center gap-2"> <img
-                        src="./assets/coin.png" alt="">
-                    <h1><span id="my-total-tk">5500</span> BDT</h1>
-                </div>
+                
             </div>
+        </div>
+        <div class=" flex justify-center gap-5 backdrop-blur py-5">
+            <button id="donationBtn" class="btn btn-outline] border-[#1111114D] bg-[#B4F461]">Donation</button>
+            <button id="historyBtn" class="btn btn-outline border-[#1111114D]">History</button>
         </div>
     </nav>
 
@@ -59,10 +66,7 @@
     <main class="bg-white py-20">
         <!-- Donation section start -->
         <section class="container mx-auto space-y-6 ">
-            <div class=" flex justify-center gap-5">
-                <button id="donationBtn" class="btn btn-outline] border-[#1111114D]">Donation</button>
-                <button id="historyBtn" class="btn btn-outline border-[#1111114D]">History</button>
-            </div>
+           
            
 
             <div id="donationON" class="">

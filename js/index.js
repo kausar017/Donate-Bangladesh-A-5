@@ -67,10 +67,10 @@ document.getElementById('donetBtn2').addEventListener('click', function(){
         const myTotalBalance = blance - inputValue;
         document.getElementById('my-total-tk').innerText = myTotalBalance;
         const donateBalance = donateTk + inputValue;
-        document.getElementById('donate-tk').innerText = donateBalance;
+        document.getElementById('donate-tk1').innerText = donateBalance;
         
         document.getElementById('my_modal_5').showModal();
-        document.getElementById('donetInput').value = '';
+        document.getElementById('donetInput1').value = '';
     }
 
     const historyItem = document.createElement('div');
@@ -112,10 +112,10 @@ document.getElementById('donetBtn3').addEventListener('click', function(){
         const myTotalBalance = blance - inputValue;
         document.getElementById('my-total-tk').innerText = myTotalBalance;
         const donateBalance = donateTk + inputValue;
-        document.getElementById('donate-tk').innerText = donateBalance;
+        document.getElementById('donate-tk2').innerText = donateBalance;
         
         document.getElementById('my_modal_5').showModal();
-        document.getElementById('donetInput').value = '';
+        document.getElementById('donetInput2').value = '';
     }
 
     const historyItem = document.createElement('div');
