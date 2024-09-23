@@ -1,24 +1,17 @@
-const donetInput =document.getElementById('donetInput');
-const donetBtnEl1 = document.getElementById("donetBtn1");
-const donetBtnEl2 = document.getElementById("donetBtn2");
-const donetBtnEl3 = document.getElementById("donetBtn3");
-const donationBtn = document.getElementById('donationBtn')
+// document.getElementById("donetBtn1") 
 
 
+document.getElementById('donetBtn1').addEventListener('click', function(){
 
-
-donetBtnEl1.addEventListener('click',function(){
+    const blance = getInnerTextNumber('My-total-tk');
+    console.log( blance);
     
+    const donatTk = getInputValuToNumbar('donetInput');
+    console.log(donatTk);
     
-});
-donetBtnEl2.addEventListener('click',function(){
-    console.log('clicked');
+    const inputValue = getInnerTextNumber('donate-tk');
+    console.log(inputValue);
     
-});
-donetBtnEl3.addEventListener('click',function(){
-    console.log('clicked');
-    
-});
-donetInput.addEventListener('click', function(){
 
 })
+

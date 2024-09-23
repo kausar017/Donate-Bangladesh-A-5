@@ -11,7 +11,7 @@ const historyBtnEl = document.getElementById('historyBtn');
 document.getElementById('donationBtn').addEventListener('click', function () {
     donationContainer.classList.remove('hidden');
     donationBtnEl.style.backgroundColor='#B4F461';
-    historyBtnEl.style.backgroundColor = '#ffff'
+    historyBtnEl.style.backgroundColor = '#ffff';
 })
 
 document.getElementById('historyBtn').addEventListener('click', function () {
