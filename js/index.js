@@ -8,7 +8,7 @@ const donationBtn = document.getElementById('donationBtn')
 
 
 donetBtnEl1.addEventListener('click',function(){
-    console.log('clicked');
+    
     
 });
 donetBtnEl2.addEventListener('click',function(){
