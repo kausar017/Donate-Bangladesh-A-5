@@ -2,7 +2,7 @@ const donetInput =document.getElementById('donetInput');
 const donetBtnEl1 = document.getElementById("donetBtn1");
 const donetBtnEl2 = document.getElementById("donetBtn2");
 const donetBtnEl3 = document.getElementById("donetBtn3");
-const donationBtn = document.getElementById('donetInput')
+const donationBtn = document.getElementById('donationBtn')
 
 
 
