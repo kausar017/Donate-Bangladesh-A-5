@@ -1,7 +1,7 @@
 function getInnerTextNumber(id){
     const elementTextNumber = parseFloat(document.getElementById(id).innerText)
     return elementTextNumber;
-}
+}   
 
 
 function getInputValuToNumbar(id) {
