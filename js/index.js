@@ -11,7 +11,7 @@ document.getElementById('donetBtn1').addEventListener('click', function(){
     if(isNaN(inputValue)) {
      return alert('Ivalid amount');
     }
-    else if(inputValue < 0){
+    else if(inputValue <= 0){
        return alert('Invalid amount ')
     }
     else if(blance < inputValue){
@@ -55,15 +55,15 @@ document.getElementById('donetBtn2').addEventListener('click', function(){
     
     if(isNaN(inputValue)) {
      return alert('Ivalid amount');
+
     }
-    else if(inputValue < 0){
-       return alert('Invalid amount ')
+    else if(inputValue <= 0){
+       return alert('Invalid amount');
     }
     else if(blance < inputValue){
-       return alert('Insufficient Balance')
+       return alert('Insufficient Balance');
     }
- 
-    else {
+     else {
         const myTotalBalance = blance - inputValue;
         document.getElementById('my-total-tk').innerText = myTotalBalance;
         const donateBalance = donateTk + inputValue;
@@ -101,7 +101,7 @@ document.getElementById('donetBtn3').addEventListener('click', function(){
     if(isNaN(inputValue)) {
      return alert('Ivalid amount');
     }
-    else if(inputValue < 0){
+    else if(inputValue <= 0){
        return alert('Invalid amount ')
     }
     else if(blance < inputValue){
